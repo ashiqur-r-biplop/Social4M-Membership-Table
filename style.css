@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   background-color: #0b0744;
 }
@@ -10,15 +11,22 @@ body {
 }
 table {
   width: 100%;
-  border-collapse: separate;
+  border-collapse: separate; 
+  border-spacing: 30px 0px; 
   text-align: center;
   font-size: 20px;
   font-weight: 800;
+  font-family: Montserrat;
+}
+.Premium-text{
+  font-family: 'Bad Script' !important;
+  font-size: 32px !important;
 }
 th,
 td {
   text-align: center;
   padding: 20px 10px;
+  width: 296px;
 }
 
 .second-row {
@@ -38,6 +46,9 @@ td {
   height: 10px;
   border: 1px solid black;
   background-color: #0b0744;
+}
+td {
+  border-top: 1px solid #ddd;
 }
 @media only screen and (max-width: 600px) {
   .table-container {
